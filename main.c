@@ -1,7 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
-{
-    printf("Lucas");
+typedef enum {
+    ID,
+    OPERADOR,
+    INT,
+    FLOAT,
+    INVALID
+} TokenType;
+
+
+
+
+
+int main() {
     return 0;
 }
