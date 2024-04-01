@@ -19,5 +19,12 @@ typedef struct {
 
 
 int main() {
+    FILE* file = fopen("input.txt", "r");
+    if(file == NULL ){
+        printf("Nao foi possivel abrir o arquivo.\n");
+        return 1;
+    }
+
+    
     return 0;
 }
