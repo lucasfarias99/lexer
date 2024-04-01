@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define MAX_TOKEN_LENGHT 100
+
 typedef enum {
     ID,
     OPERADOR,
@@ -9,7 +11,10 @@ typedef enum {
     INVALID
 } TokenType;
 
-
+typedef struct {
+    TokenType  type;
+    char lexeme[MAX_TOKEN_LENGHT];
+} Token;
 
 
 
