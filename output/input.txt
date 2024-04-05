@@ -1,2 +1,7 @@
-aabc + 2 1.5 0. x AAB1. .0 - * x  10 + 20 y  3.14 x  a + b * c - d / 10.5
+variavel1 10 + variavel2 * 5.5 123 1invalido 10 b # c 1. .10 1.0.1
+
+
+
+
+
 
